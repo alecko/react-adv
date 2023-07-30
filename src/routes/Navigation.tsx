@@ -3,6 +3,7 @@ import { BrowserRouter } from 'react-router-dom'
 import { Routes, Route, NavLink, Navigate } from 'react-router-dom'
 
 import logo from '../logo.svg'
+import ShoppingPage from '../02-components-patterns/pages/ShoppingPage'
 
 const Navigation = () => {
     return (
@@ -17,7 +18,7 @@ const Navigation = () => {
                     </ul>
                 </nav>
                 <Routes>
-                    <Route path="home" element={<h1>Home Page</h1>} />
+                    <Route path="home" element={<ShoppingPage />} />
                     <Route path="about" element={<h1>About anything</h1>} />
                     <Route path="users" element={<h1>Users List</h1>} />
                     <Route path="/*" element={<Navigate to="home" replace />} />
