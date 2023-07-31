@@ -1,0 +1,21 @@
+.bg-dark{
+    background-color: #565656;
+}
+
+.text-white{
+    color:white;
+}
+
+.text-bold{
+    font-weight:bold;
+}
+
+.custom-image{
+    padding: 10px;
+    border-radius: 20px;
+    width: calc(100% - 20%);
+}
+
+.custom-button{
+    background-color: red;
+}
